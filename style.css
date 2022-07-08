@@ -1,0 +1,134 @@
+:root {
+    --green: #22C55E;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    /* Head */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+.head__span {
+    padding: 2px 8px;
+    margin: 0;
+    font-size: 10px;
+    background-color: #DCFCE7;
+    color: var(--green);
+    border-radius: 10px;
+}
+
+.head__ph {
+    width: 55%;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+.head_btn {
+    padding-top: 35px;
+    margin-right: 90px;
+    
+}
+
+.head__btnOpen {
+    width: 130px;
+    height: 40px;
+    background-color: #22C55E;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid black;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.head__btnAbout {
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #D5DAE1;
+    cursor: pointer;
+}
+
+    /* Contact */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Contact Left side */
+
+.contact_office {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 45%;
+    margin: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.contact_office__win {
+    width: 40%;
+}
+
+.contact_social_icon {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+address {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    /* Contact Right side */
+
+.contact_email {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 35%;
+    background-color: #F7F8F9;
+}
+
+input {
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #D5DAE1;
+}
+
+label {
+    margin: 5px;
+}
+
+textarea {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #D5DAE1;
+}
+
+.email_buuton {
+    height: 40px;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
