@@ -1,1 +1,1 @@
-# Semantic
+# Semantic according to Figma
